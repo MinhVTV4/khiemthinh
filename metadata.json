@@ -1,0 +1,7 @@
+{
+  "name": "Remix: Remix: Copy of Sign Language Machine Learning",
+  "description": "Dạy máy tính nhận diện thủ ngữ của riêng bạn bằng TensorFlow JS.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

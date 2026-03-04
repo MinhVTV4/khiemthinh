@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <title>Sign Language Decoder ML</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body, html, #root {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #000;
+        touch-action: none;
+      }
+      /* Ensure canvas doesn't capture weird touch highlights on mobile */
+      canvas {
+        outline: none;
+        -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+      }
+      
+      /* Custom Scrollbar for training panel */
+      .scroller::-webkit-scrollbar {
+        width: 6px;
+      }
+      .scroller::-webkit-scrollbar-track {
+        background: rgba(255, 255, 255, 0.05);
+      }
+      .scroller::-webkit-scrollbar-thumb {
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 3px;
+      }
+    </style>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
